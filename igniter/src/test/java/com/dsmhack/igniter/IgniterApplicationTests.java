@@ -8,8 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(Cucumber.class)
-@SpringBootTest
-@CucumberOptions(plugin = {"pretty"},features = {"./features/"})
+@CucumberOptions(plugin = {"pretty"},features = {"./src/test/resources/features"})
 public class IgniterApplicationTests {
 
 	@Test
