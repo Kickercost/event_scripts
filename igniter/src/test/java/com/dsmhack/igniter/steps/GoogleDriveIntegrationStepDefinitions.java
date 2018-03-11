@@ -45,4 +45,10 @@ public class GoogleDriveIntegrationStepDefinitions {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
     }
+
+    @And("^The google Drive folder of \"([^\"]*)\" is created$")
+    public void theGoogleDriveFolderOfIsCreated(String folderPath) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
 }
